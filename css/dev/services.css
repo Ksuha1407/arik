@@ -74,6 +74,9 @@
   font-weight: 300;
   line-height: 1.1;
 }
+.item-services__link-title {
+  transition: color 0.3s;
+}
 .item-services__link-image {
   display: block;
   position: relative;
@@ -111,7 +114,7 @@
   line-height: 1.8;
 }
 .table-services__text p:not(:last-child) {
-  margin-bottom: 0.875rem;
+  margin-bottom: 1rem;
 }
 .table-services__more {
   font-weight: 400;
@@ -270,6 +273,9 @@
   }
 }
 @media (any-hover: hover) and (any-pointer: fine) {
+  .item-services__link-title:hover {
+    color: #f9efe1;
+  }
   .item-services__link-image:hover {
     scale: 1.01;
   }
